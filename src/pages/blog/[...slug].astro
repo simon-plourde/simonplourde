@@ -20,19 +20,19 @@ function formatDate(date: Date) {
 <Layout title={`${post.data.title} — Simon Plourde`} description={post.data.description}>
   <div class="container">
 
-    <section class="post-hero">
-      <div class="post-meta">
-        <span class="post-date">{formatDate(post.data.pubDate)}</span>
+    <section class="post-header">
+      <div class="post-header-meta">
+        <span class="post-full-date">{formatDate(post.data.pubDate)}</span>
         {post.data.tags?.[0] && <span class="post-tag">{post.data.tags[0]}</span>}
       </div>
       <h1>{post.data.title}</h1>
     </section>
 
-    <article class="post-body">
+    <article class="post-content">
       <Content />
     </article>
 
-    <div class="post-nav">
+    <div class="post-back">
       <a href="/blog">← All posts</a>
     </div>
 

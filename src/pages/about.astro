@@ -1,49 +1,58 @@
 ---
 import Layout from '../layouts/Layout.astro';
 ---
-<Layout title="About — Simon Plourde">
+<Layout title="About — Simon Plourde" description="About Simon Plourde — background, experience, and resume.">
   <div class="container">
 
-    <section class="about-hero">
-      <h1>About Me</h1>
+    <section class="about-header">
+      <h1>About me</h1>
       <p>Hi, I'm Simon — [your short bio here: what you do, where you're based, what you're interested in].</p>
       <p>[Add a second paragraph — what you're working on, what drives you, etc.]</p>
-      <div class="contact-links">
-        <a href="mailto:simonplourde.pro@gmail.com" class="btn btn-dark">Get in touch</a>
-        <a href="https://github.com/simon-plourde" class="btn btn-outline" target="_blank">GitHub</a>
+      <div class="about-links">
+        <a href="mailto:simonplourde.pro@gmail.com" class="btn btn-primary">Get in touch</a>
+        <a href="https://github.com/simon-plourde" class="btn btn-ghost" target="_blank" rel="noopener">GitHub</a>
       </div>
     </section>
 
-    <section class="resume-block">
-      <p class="resume-block-label">Experience</p>
-      <div class="resume-item">
-        <div class="resume-row"><span class="resume-title">Job Title</span><span class="resume-date">2023 – Present</span></div>
-        <div class="resume-org">Company Name</div>
-        <div class="resume-desc">Brief description of what you did and what impact you had.</div>
+    <section class="resume-section">
+      <p class="resume-label">Experience</p>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <span class="resume-entry-title">Job Title</span>
+          <span class="resume-entry-date">2023 – Present</span>
+        </div>
+        <div class="resume-entry-org">Company Name</div>
+        <div class="resume-entry-desc">Brief description of what you did and what impact you had.</div>
       </div>
-      <div class="resume-item">
-        <div class="resume-row"><span class="resume-title">Previous Job Title</span><span class="resume-date">2020 – 2023</span></div>
-        <div class="resume-org">Previous Company</div>
-        <div class="resume-desc">Brief description of responsibilities and achievements.</div>
-      </div>
-    </section>
-
-    <section class="resume-block">
-      <p class="resume-block-label">Education</p>
-      <div class="resume-item">
-        <div class="resume-row"><span class="resume-title">Degree / Program</span><span class="resume-date">2016 – 2020</span></div>
-        <div class="resume-org">University / School Name</div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <span class="resume-entry-title">Previous Job Title</span>
+          <span class="resume-entry-date">2020 – 2023</span>
+        </div>
+        <div class="resume-entry-org">Previous Company</div>
+        <div class="resume-entry-desc">Brief description of responsibilities and achievements.</div>
       </div>
     </section>
 
-    <section class="resume-block">
-      <p class="resume-block-label">Skills</p>
-      <div class="skills-grid">
-        <span class="skill-tag">Skill 1</span>
-        <span class="skill-tag">Skill 2</span>
-        <span class="skill-tag">Skill 3</span>
-        <span class="skill-tag">Skill 4</span>
-        <span class="skill-tag">Skill 5</span>
+    <section class="resume-section">
+      <p class="resume-label">Education</p>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <span class="resume-entry-title">Degree / Program</span>
+          <span class="resume-entry-date">2016 – 2020</span>
+        </div>
+        <div class="resume-entry-org">University / School Name</div>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <p class="resume-label">Skills</p>
+      <div class="skills-wrap">
+        <span class="skill">Skill 1</span>
+        <span class="skill">Skill 2</span>
+        <span class="skill">Skill 3</span>
+        <span class="skill">Skill 4</span>
+        <span class="skill">Skill 5</span>
       </div>
     </section>
 
