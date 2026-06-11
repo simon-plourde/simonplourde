@@ -4,17 +4,46 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  lang?: 'en' | 'fr';
 }
-const { title, description = "Personal website of Simon Plourde — writing and resume." } = Astro.props;
+const {
+  title,
+  description = "Personal website of Simon Plourde — writing and resume.",
+  lang = 'en',
+} = Astro.props;
+
 const currentPath = Astro.url.pathname;
+
+// Compute alternate language URL
+let altHref: string;
+if (lang === 'fr') {
+  const stripped = currentPath.slice(3); // remove '/fr'
+  altHref = stripped || '/';
+} else {
+  altHref = currentPath === '/' ? '/fr/' : `/fr${currentPath}`;
+}
+
+// Localized nav labels
+const nav = {
+  en: { home: 'Home', blog: 'Blog', about: 'About' },
+  fr: { home: 'Accueil', blog: 'Blog', about: 'À propos' },
+}[lang];
+
+// Localized footer
+const footer = {
+  en: { resume: 'Resume' },
+  fr: { resume: 'CV' },
+}[lang];
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang={lang}>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title}</title>
   <meta name="description" content={description} />
+  <link rel="alternate" hreflang="en" href={lang === 'fr' ? altHref : currentPath} />
+  <link rel="alternate" hreflang="fr" href={lang === 'en' ? altHref : currentPath} />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -30,13 +59,19 @@ const currentPath = Astro.url.pathname;
 
   <nav>
     <div class="inner">
-      <a href="/" class="nav-logo">Simon Plourde</a>
+      <a href={lang === 'fr' ? '/fr/' : '/'} class="nav-logo">Simon Plourde</a>
       <div class="nav-right">
         <ul class="nav-links">
-          <li><a href="/" aria-current={currentPath === '/' ? 'page' : undefined}>Home</a></li>
-          <li><a href="/blog" aria-current={currentPath.startsWith('/blog') ? 'page' : undefined}>Blog</a></li>
-          <li><a href="/about" aria-current={currentPath === '/about' ? 'page' : undefined}>About</a></li>
+          <li><a href={lang === 'fr' ? '/fr/' : '/'} aria-current={currentPath === '/' || currentPath === '/fr/' ? 'page' : undefined}>{nav.home}</a></li>
+          <li><a href={lang === 'fr' ? '/fr/blog' : '/blog'} aria-current={currentPath.includes('/blog') ? 'page' : undefined}>{nav.blog}</a></li>
+          <li><a href={lang === 'fr' ? '/fr/about' : '/about'} aria-current={currentPath.includes('/about') ? 'page' : undefined}>{nav.about}</a></li>
         </ul>
+        <div class="lang-switcher">
+          {lang === 'en'
+            ? <><span class="lang-active">EN</span><span class="lang-sep">|</span><a href={altHref}>FR</a></>
+            : <><a href={altHref}>EN</a><span class="lang-sep">|</span><span class="lang-active">FR</span></>
+          }
+        </div>
         <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
           <span id="theme-icon">☀</span>
         </button>
@@ -53,8 +88,8 @@ const currentPath = Astro.url.pathname;
       <span class="footer-left">© {new Date().getFullYear()} Simon Plourde</span>
       <ul class="footer-links">
         <li><a href="https://github.com/simon-plourde" target="_blank" rel="noopener">GitHub</a></li>
-        <li><a href="/about">Resume</a></li>
-        <li><a href="/blog">Blog</a></li>
+        <li><a href={lang === 'fr' ? '/fr/about' : '/about'}>{footer.resume}</a></li>
+        <li><a href={lang === 'fr' ? '/fr/blog' : '/blog'}>{nav.blog}</a></li>
       </ul>
     </div>
   </footer>
@@ -75,7 +110,6 @@ const currentPath = Astro.url.pathname;
       localStorage.setItem('theme', theme);
     }
 
-    // Set correct icon on load
     applyTheme(getEffectiveTheme());
 
     btn.addEventListener('click', () => {

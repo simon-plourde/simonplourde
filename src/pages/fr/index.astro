@@ -1,0 +1,56 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('blog-fr'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 5);
+function formatDate(date: Date) {
+  return date.toLocaleDateString('fr-CA', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+---
+<Layout title="Simon Plourde" lang="fr">
+  <div class="container">
+
+    <section class="hero">
+      <h1>Bonjour, je suis <span>Simon</span>.</h1>
+      <p class="hero-lead">
+        J'écris sur [les sujets qui t'intéressent — tech, affaires, idées, etc.].
+        C'est mon coin d'internet — un blogue, un portfolio et un CV en un seul endroit.
+      </p>
+      <div class="hero-actions">
+        <a href="/fr/blog" class="btn btn-primary">Lire le blogue</a>
+        <a href="/fr/about" class="btn btn-ghost">À propos</a>
+      </div>
+    </section>
+
+    {posts.length > 0 && (
+      <section class="section">
+        <p class="section-title">Derniers articles</p>
+        <ul class="post-list">
+          {posts.map(post => (
+            <li class="post-row">
+              <a href={`/fr/blog/${post.slug}`}>{post.data.title}</a>
+              <span class="post-date">{formatDate(post.data.pubDate)}</span>
+            </li>
+          ))}
+        </ul>
+        <div class="section-footer">
+          <a href="/fr/blog">Tous les articles →</a>
+        </div>
+      </section>
+    )}
+
+    <section class="section">
+      <p class="section-title">Me rejoindre</p>
+      <ul class="post-list">
+        <li class="post-row">
+          <a href="https://github.com/simon-plourde" target="_blank" rel="noopener">GitHub</a>
+        </li>
+        <li class="post-row">
+          <a href="mailto:simonplourde.pro@gmail.com">simonplourde.pro@gmail.com</a>
+        </li>
+      </ul>
+    </section>
+
+  </div>
+</Layout>
