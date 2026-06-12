@@ -1,0 +1,33 @@
+# Simon Plourde — simonplourde.com
+
+> Simon Plourde is a Montreal-based IT professional with 10+ years of experience in infrastructure, networking, cybersecurity, and Microsoft cloud environments. He writes about technology, AI experiments, finance, and his experiences.
+
+## About
+
+- **Name**: Simon Plourde
+- **Location**: Montréal, QC, Canada
+- **Current role**: Senior Analyst, Infrastructure & Cybersecurity at Groupe CH
+- **Languages**: English, French
+
+## Expertise
+
+- Network infrastructure: firewall (Palo Alto), switching (Cisco, Arista, Ubiquiti), Wi-Fi, VPN, VLAN
+- Microsoft cloud: Azure, Entra ID, Microsoft 365, Exchange, SharePoint, Teams
+- Systems: Active Directory, ESX/VMware, SAN storage, PowerShell
+- Cybersecurity
+- Event networking for large-scale venues and festivals (Centre Bell, Place Bell, Jazz de Montréal, Osheaga, IleSoniq)
+
+## Site structure
+
+- Homepage (EN): https://simonplourde.com/
+- Homepage (FR): https://simonplourde.com/fr/
+- Blog (EN): https://simonplourde.com/blog/
+- Blog (FR): https://simonplourde.com/fr/blog/
+- About (EN): https://simonplourde.com/about/
+- About (FR): https://simonplourde.com/fr/about/
+
+## Contact
+
+- GitHub: https://github.com/simon-plourde
+- LinkedIn: https://www.linkedin.com/in/simon-plourde-690987162/
+- Email: simonplourde.pro@gmail.com

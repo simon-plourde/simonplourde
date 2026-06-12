@@ -1,0 +1,10 @@
+/* TEAM */
+Author: Simon Plourde
+Location: Montréal, QC, Canada
+Contact: simonplourde.pro [at] gmail.com
+
+/* SITE */
+Built with: Astro 4
+Hosted on: Cloudflare Workers & Pages
+Languages: English, French
+Last updated: 2026-06-12

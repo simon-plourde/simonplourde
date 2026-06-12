@@ -8,11 +8,12 @@ interface Props {
 }
 const {
   title,
-  description = "Personal website of Simon Plourde — writing and resume.",
+  description = "Simon Plourde — IT Professional & Tech Blog, Montréal",
   lang = 'en',
 } = Astro.props;
 
 const currentPath = Astro.url.pathname;
+const canonicalURL = new URL(currentPath, Astro.site);
 
 let altHref: string;
 if (lang === 'fr') {
@@ -26,19 +27,52 @@ const nav = {
   en: { home: 'Home', blog: 'Blog', about: 'About' },
   fr: { home: 'Accueil', blog: 'Blog', about: 'À propos' },
 }[lang];
+
+const footer = {
+  en: { resume: 'Resume' },
+  fr: { resume: 'CV' },
+}[lang];
 ---
 <!DOCTYPE html>
 <html lang={lang}>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary -->
   <title>{title}</title>
   <meta name="description" content={description} />
-  <link rel="alternate" hreflang="en" href={lang === 'fr' ? altHref : currentPath} />
-  <link rel="alternate" hreflang="fr" href={lang === 'en' ? altHref : currentPath} />
+  <link rel="canonical" href={canonicalURL} />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={canonicalURL} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:locale" content={lang === 'fr' ? 'fr_CA' : 'en_CA'} />
+  <meta property="og:site_name" content="Simon Plourde" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+
+  <!-- Hreflang -->
+  <link rel="alternate" hreflang="en" href={lang === 'fr' ? new URL(altHref, Astro.site) : canonicalURL} />
+  <link rel="alternate" hreflang="fr" href={lang === 'en' ? new URL(altHref, Astro.site) : canonicalURL} />
+  <link rel="alternate" hreflang="x-default" href={new URL('/', Astro.site)} />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Page-specific head (e.g. JSON-LD) -->
+  <slot name="head" />
+
   <script is:inline>
     (function() {
       const saved = localStorage.getItem('theme');

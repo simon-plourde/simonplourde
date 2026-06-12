@@ -1,7 +1,21 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 ---
-<Layout title="À propos — Simon Plourde" description="À propos de Simon Plourde — parcours, expérience et CV." lang="fr">
+<Layout title="À propos — Simon Plourde | Professionnel IT, Montréal" description="À propos de Simon Plourde — analyste IT senior basé à Montréal, spécialisé en infrastructure, cybersécurité et cloud Microsoft." lang="fr">
+  <script type="application/ld+json" slot="head">{JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Simon Plourde",
+    "url": "https://simonplourde.com",
+    "jobTitle": "Analyste principal, Infrastructure et Cybersécurité",
+    "worksFor": { "@type": "Organization", "name": "Groupe CH" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Montréal", "addressRegion": "QC", "addressCountry": "CA" },
+    "knowsLanguage": ["fr", "en"],
+    "sameAs": [
+      "https://github.com/simon-plourde",
+      "https://www.linkedin.com/in/simon-plourde-690987162/"
+    ]
+  })}</script>
   <div class="container">
 
     <section class="about-header">
