@@ -218,3 +218,13 @@ footer .inner { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
   .nav-links { gap: 14px; }
   footer .inner { flex-direction: column; align-items: flex-start; }
 }
+
+@media (max-width: 500px) {
+  /* Hide "Home" nav link — logo already serves this purpose */
+  .nav-links li:first-child { display: none; }
+  /* Tighten nav spacing so it fits on a 375px screen */
+  .nav-right { gap: 12px; }
+  .nav-links { gap: 10px; }
+  nav .inner { padding: 0 16px; }
+  .container { padding: 0 16px; }
+}
