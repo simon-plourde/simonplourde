@@ -2,7 +2,6 @@
 title: "Hello World — Why I Started This Blog"
 description: "I built this website in one evening with zero web experience, using AI as a collaborator. Here's why, and what this blog is going to be about."
 pubDate: 2026-06-10
-tags: ["Meta"]
 ---
 
 Every developer writes a "Hello World" as their first line of code. I figured it was only fitting to start this blog the same way — except I didn't write a single line of code to get here.

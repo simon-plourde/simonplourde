@@ -2,7 +2,6 @@
 title: "Hello World — Pourquoi j'ai lancé ce blogue"
 description: "J'ai construit ce site en une soirée avec zéro expérience web, en utilisant l'IA comme collaborateur. Voici pourquoi, et ce dont ce blogue va parler."
 pubDate: 2026-06-10
-tags: ["Meta"]
 ---
 
 Tout développeur écrit un "Hello World" comme première ligne de code. J'ai trouvé logique de commencer ce blogue de la même façon — sauf que je n'ai pas écrit une seule ligne de code pour arriver ici.
