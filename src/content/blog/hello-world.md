@@ -1,20 +1,24 @@
 ---
 title: "Hello World — Why I Started This Blog"
-description: "Every blog needs a first post. Here's mine — a bit about who I am, why I decided to build a presence online, and what I plan to write about."
+description: "I built this website in one evening with zero web experience, using AI as a collaborator. Here's why, and what this blog is going to be about."
 pubDate: 2026-06-10
 tags: ["Meta"]
 ---
 
-Every blog has to start somewhere. This is mine.
+Every developer writes a "Hello World" as their first line of code. I figured it was only fitting to start this blog the same way — except I didn't write a single line of code to get here.
 
-[Write your first post here. Why did you start this? What do you want to share? Who are you writing for? This is a great place to introduce yourself and set expectations for what this blog will be about.]
+I've spent over 10 years in IT. Firewalls, servers, Active Directory, event networking for Centre Bell — that's my world. Web development? Never touched it. HTML, CSS, JavaScript frameworks — I knew they existed the same way I know planes exist: I've seen them, I couldn't build one.
 
-## What I'll Write About
+Then I started thinking about AI differently.
 
-[Describe the topics you plan to cover — your field, your interests, things you're learning, observations about your industry, etc.]
+Not as a chatbot. Not as something that writes emails for you. But as a genuine collaborator — something you could sit down with and actually *build* things. I wanted to test that idea, and I needed a project.
 
-## Why a Personal Website?
+So I gave myself a challenge: build a personal website from scratch, in one evening, with zero web experience.
 
-[Your reasoning — owning your presence online, building in public, having a place to think out loud, etc.]
+I opened Claude Cowork, described what I wanted — an Astro site, bilingual, dark and light mode, hosted on Cloudflare — and just started working. When I didn't understand something, I asked. When something broke, we debugged it together. I never had to learn what a CSS variable was to use one. I never had to understand Cloudflare Workers routing to get my domain pointing to the right place.
 
-Thanks for reading. More soon.
+By the end of the evening, simonplourde.com was live.
+
+That's what this blog is about. Not web development specifically — but using AI to build things I couldn't have built before. Experimenting, figuring things out, and writing about it along the way. If you're an IT person curious about where AI is taking things, or just someone who wants to build stuff without spending months learning the surrounding theory first, you might find something useful here.
+
+Let's see where this goes.
