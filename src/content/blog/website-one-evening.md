@@ -1,5 +1,5 @@
 ---
-title: "simonplourde.com — I Built This With AI and Zero Coding Knowledge in One Evening"
+title: "simonplourde.com — I Built a Website With AI and Zero Coding Knowledge in One Evening"
 description: "A step-by-step look at how an IT infrastructure guy with zero web experience launched a full bilingual website using Claude as a collaborator."
 pubDate: 2026-06-14
 ---
