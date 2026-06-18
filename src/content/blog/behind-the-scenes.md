@@ -1,5 +1,5 @@
 ---
-title: "The Stack, the Workflow, and the Deploy — Behind the Scenes of Building This Site"
+title: "simonplourde.com — Behind the Scenes"
 description: "What actually went into building simonplourde.com — the tools chosen, how working with Claude looked in practice, and how it all got deployed live."
 pubDate: 2026-06-14
 ---

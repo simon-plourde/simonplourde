@@ -1,5 +1,5 @@
 ---
-title: "How I Built and Deployed a Website in One Evening — Without Writing a Single Line of Code"
+title: "simonplourde.com — I Built This With AI and Zero Coding Knowledge in One Evening"
 description: "A step-by-step look at how an IT infrastructure guy with zero web experience launched a full bilingual website using Claude as a collaborator."
 pubDate: 2026-06-14
 ---

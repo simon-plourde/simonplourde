@@ -1,5 +1,5 @@
 ---
-title: "Hello World — Pourquoi j'ai lancé ce blogue"
+title: "simonplourde.com — Hello World"
 description: "J'ai construit ce site en une soirée avec zéro expérience web, en utilisant l'IA comme collaborateur. Voici pourquoi, et ce dont ce blogue va parler."
 pubDate: 2026-06-10
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Comment j'ai lancé un site web en une soirée — sans écrire une seule ligne de code"
+title: "simonplourde.com — J'ai construit ça avec l'IA et zéro expérience en code, en une soirée"
 description: "Comment un professionnel IT sans aucune expérience web a lancé un site bilingue complet en utilisant Claude comme collaborateur."
 pubDate: 2026-06-14
 ---

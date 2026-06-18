@@ -1,5 +1,5 @@
 ---
-title: "La stack, le workflow et le déploiement — Dans les coulisses de ce site"
+title: "simonplourde.com — Dans les coulisses"
 description: "Ce qui s'est vraiment passé lors de la construction de simonplourde.com — les outils choisis, comment le travail avec Claude s'est déroulé en pratique, et comment tout a été mis en ligne."
 pubDate: 2026-06-14
 ---

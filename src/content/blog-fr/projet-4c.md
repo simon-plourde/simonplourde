@@ -1,5 +1,5 @@
 ---
-title: "Projet 4C — Construire un outil de finances pour couple parce que j'étais trop paresseux pour utiliser un tableur"
+title: "Projet 4C — Comment un non-développeur a construit une app de finances avec l'IA en quelques soirées"
 description: "Ma copine et moi réconciliions manuellement nos dépenses communes chaque mois dans Google Sheets. Je détestais ça. Alors j'ai construit quelque chose de mieux."
 pubDate: 2026-06-15
 ---
