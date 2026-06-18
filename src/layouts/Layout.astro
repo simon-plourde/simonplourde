@@ -49,13 +49,17 @@ const footer = {
   <meta property="og:url" content={canonicalURL} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
+  <meta property="og:image" content="https://simonplourde.com/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
   <meta property="og:locale" content={lang === 'fr' ? 'fr_CA' : 'en_CA'} />
   <meta property="og:site_name" content="Simon Plourde" />
 
   <!-- Twitter / X -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content="https://simonplourde.com/og-image.png" />
 
   <!-- Hreflang -->
   <link rel="alternate" hreflang="en" href={lang === 'fr' ? new URL(altHref, Astro.site) : canonicalURL} />
