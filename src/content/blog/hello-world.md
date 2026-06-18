@@ -1,5 +1,5 @@
 ---
-title: "Hello World — Why I Started This Blog"
+title: "simonplourde.com — Hello World"
 description: "I built this website in one evening with zero web experience, using AI as a collaborator. Here's why, and what this blog is going to be about."
 pubDate: 2026-06-10
 ---
