@@ -4,7 +4,7 @@ description: "The stack, the workflow, and how I built a couples expense reconci
 pubDate: 2026-06-16
 ---
 
-Same approach as the website: describe what I want, let Claude lead on the implementation, and stay in the driver's seat on the decisions. Different project, same process.
+Same approach as [the website](/blog/behind-the-scenes/): describe what I want, let Claude lead on the implementation, and stay in the driver's seat on the decisions. Different project, same process.
 
 ## My setup
 

@@ -4,7 +4,7 @@ description: "Un premier aperçu de Projet 4C, l'outil de réconciliation des d�
 pubDate: 2026-06-15
 ---
 
-Le dernier post expliquait pourquoi Projet 4C existe. Celui-ci montre à quoi ça ressemble concrètement.
+[Le dernier post](/fr/blog/projet-4c/) expliquait pourquoi Projet 4C existe. Celui-ci montre à quoi ça ressemble concrètement.
 
 ## Ce que ça fait
 
@@ -42,4 +42,4 @@ Une fois quelques mois de données accumulés, l'onglet Tendances devient vraime
 
 La boucle principale fonctionne de bout en bout. Uploader les CSV, réviser, régler. La vue des tendances montre déjà des patterns qu'on ne voyait pas avant.
 
-D'autres fonctionnalités sont en cours — mais ça, c'est pour un prochain post.
+D'autres fonctionnalités sont en cours — mais ça, c'est pour un prochain post. Curieux de savoir comment c'est construit ? [Voici les coulisses.](/fr/blog/projet-4c-behind-the-scenes/)

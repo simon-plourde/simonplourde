@@ -4,7 +4,7 @@ description: "Ma copine et moi réconciliions manuellement nos dépenses commune
 pubDate: 2026-06-15
 ---
 
-C'est le projet que j'ai annoncé à la fin du dernier post. Ça a commencé avec un problème que beaucoup de couples connaissent probablement.
+C'est le projet que j'ai annoncé à la fin [du dernier post](/fr/blog/behind-the-scenes/). Ça a commencé avec un problème que beaucoup de couples connaissent probablement.
 
 ## Le problème
 
@@ -26,4 +26,4 @@ Mais honnêtement ? Même si quelque chose existait, la partie amusante c'était
 
 ## La suite
 
-Le prochain post sera un aperçu de l'outil tel qu'il est aujourd'hui. À suivre.
+[Le prochain post](/fr/blog/projet-4c-first-look/) sera un aperçu de l'outil tel qu'il est aujourd'hui. À suivre.

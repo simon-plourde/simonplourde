@@ -4,7 +4,7 @@ description: "A step-by-step look at how an IT infrastructure guy with zero web 
 pubDate: 2026-06-14
 ---
 
-The Hello World post explains why I built this site. This one is about how it actually happened.
+[The Hello World post](/blog/hello-world/) explains why I built this site. This one is about how it actually happened.
 
 ## What I was starting with
 
@@ -30,4 +30,4 @@ The other thing: I never felt stuck. The collaboration kept the momentum going t
 
 If you work in IT, you already think in systems. You're not starting from zero when it comes to building with AI — you're further ahead than you think.
 
-*In the next post, I'll get into the details — the stack, how the back-and-forth with Claude actually worked, and how the deployment came together. The full behind-the-scenes.*
+*In the next post, I'll get into the details — the stack, how the back-and-forth with Claude actually worked, and how the deployment came together. [The full behind-the-scenes.](/blog/behind-the-scenes/)*

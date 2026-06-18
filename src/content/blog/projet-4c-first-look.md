@@ -4,7 +4,7 @@ description: "A first look at Projet 4C, the couples expense reconciliation tool
 pubDate: 2026-06-15
 ---
 
-The last post explained why Projet 4C exists. This one shows what it actually looks like.
+[The last post](/blog/projet-4c/) explained why Projet 4C exists. This one shows what it actually looks like.
 
 ## What it's built to do
 
@@ -42,4 +42,4 @@ Once a few months of data are in, the Trends tab starts to get interesting. Cate
 
 The core loop works end to end. Upload CSVs, review, settle up. The trends view is already showing patterns we didn't know were there.
 
-More features in the pipeline — but that's for a future post.
+More features in the pipeline — but that's for a future post. Curious about the stack? [Here's how it was built.](/blog/projet-4c-behind-the-scenes/)

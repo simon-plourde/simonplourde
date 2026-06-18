@@ -4,7 +4,7 @@ description: "Comment un professionnel IT sans aucune expérience web a lancé u
 pubDate: 2026-06-14
 ---
 
-Le post Hello World explique pourquoi j'ai créé ce site. Celui-ci parle de comment ça s'est passé concrètement.
+[Le post Hello World](/fr/blog/hello-world/) explique pourquoi j'ai créé ce site. Celui-ci parle de comment ça s'est passé concrètement.
 
 ## Ce que j'avais au départ
 
@@ -30,4 +30,4 @@ L'autre chose : je ne me suis jamais senti bloqué. La collaboration a maintenu 
 
 Si tu travailles en IT, tu penses déjà en systèmes. Tu ne pars pas de zéro quand il s'agit de construire avec l'IA — tu es plus avancé que tu ne le crois.
 
-*Dans le prochain post, j'entre dans les détails — la stack, comment le dialogue avec Claude a vraiment fonctionné, et comment le déploiement s'est mis en place. Le vrai behind-the-scenes.*
+*Dans le prochain post, j'entre dans les détails — la stack, comment le dialogue avec Claude a vraiment fonctionné, et comment le déploiement s'est mis en place. [Le vrai behind-the-scenes.](/fr/blog/behind-the-scenes/)*

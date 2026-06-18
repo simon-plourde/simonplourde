@@ -20,4 +20,4 @@ By the end of the evening, simonplourde.com was live.
 
 That's what this blog is about. Not web development specifically — but using AI to build things I couldn't have built before. Experimenting, figuring things out, and writing about it along the way. If you're an IT person curious about where AI is taking things, or just someone who wants to build stuff without spending months learning the surrounding theory first, you might find something useful here.
 
-Let's see where this goes.
+If you want to know how the site actually got built, [the next post gets into it](/blog/website-one-evening/).

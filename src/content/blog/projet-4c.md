@@ -4,7 +4,7 @@ description: "My girlfriend and I were manually reconciling our shared expenses 
 pubDate: 2026-06-15
 ---
 
-This is the project I teased at the end of the last post. It started with a problem we probably share with a lot of couples.
+This is the project I teased at the end of [the last post](/blog/behind-the-scenes/). It started with a problem we probably share with a lot of couples.
 
 ## The problem
 
@@ -26,4 +26,4 @@ But honestly? Even if something existed, the fun part was building it myself —
 
 ## What's next
 
-The next post will be a preview of the tool as it stands today. Stay tuned.
+[The next post](/blog/projet-4c-first-look/) will be a preview of the tool as it stands today. Stay tuned.

@@ -4,7 +4,7 @@ description: "What actually went into building simonplourde.com — the tools ch
 pubDate: 2026-06-14
 ---
 
-Last post I covered the evening at a high level. Here's what was actually happening under the hood.
+[Last post](/blog/website-one-evening/) I covered the evening at a high level. Here's what was actually happening under the hood.
 
 ## My setup
 
@@ -36,4 +36,4 @@ The stack isn't magic — it's just tools. What made the evening work wasn't any
 
 If you've been waiting until you "know enough" to start building — you probably already do.
 
-*Next up — a new project. One my girlfriend and I will actually use. More on that soon.*
+*Next up — [a new project](/blog/projet-4c/). One my girlfriend and I will actually use. More on that soon.*

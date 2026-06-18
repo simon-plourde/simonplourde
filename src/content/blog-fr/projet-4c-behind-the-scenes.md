@@ -4,7 +4,7 @@ description: "La stack, le workflow, et comment j'ai construit un outil de réco
 pubDate: 2026-06-16
 ---
 
-Même approche que pour le site web : décrire ce que je veux, laisser Claude mener l'implémentation, et garder le contrôle sur les décisions. Projet différent, même processus.
+Même approche que pour [le site web](/fr/blog/behind-the-scenes/) : décrire ce que je veux, laisser Claude mener l'implémentation, et garder le contrôle sur les décisions. Projet différent, même processus.
 
 ## Mon setup
 

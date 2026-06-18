@@ -20,4 +20,4 @@ J'ai ouvert Claude Cowork, décrit ce que je voulais — un site Astro, bilingue
 
 C'est de ça que ce blogue va parler. Pas du développement web spécifiquement — mais d'utiliser l'IA pour construire des choses que je n'aurais pas pu construire avant. Expérimenter, comprendre, et écrire sur le chemin. Si tu travailles en IT et que tu te demandes où l'IA nous amène, ou si tu veux simplement construire des trucs sans passer des mois à apprendre la théorie autour, tu trouveras peut-être quelque chose d'utile ici.
 
-On verra où ça mène.
+Si tu veux savoir comment le site a été construit concrètement, [le prochain post entre dans les détails](/fr/blog/website-one-evening/).

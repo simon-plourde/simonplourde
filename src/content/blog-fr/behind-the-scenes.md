@@ -4,7 +4,7 @@ description: "Ce qui s'est vraiment passé lors de la construction de simonplour
 pubDate: 2026-06-14
 ---
 
-Dans le dernier post, j'ai couvert la soirée en surface. Voici ce qui se passait vraiment sous le capot.
+[Dans le dernier post](/fr/blog/website-one-evening/), j'ai couvert la soirée en surface. Voici ce qui se passait vraiment sous le capot.
 
 ## Mon setup
 
@@ -36,4 +36,4 @@ La stack n'a rien de magique — ce sont juste des outils. Ce qui a fait fonctio
 
 Si tu attends d'en "savoir assez" pour commencer à construire — tu en sais probablement déjà assez.
 
-*Prochain épisode — un nouveau projet. Un que ma copine et moi allons vraiment utiliser. À suivre.*
+*Prochain épisode — [un nouveau projet](/fr/blog/projet-4c/). Un que ma copine et moi allons vraiment utiliser. À suivre.*
