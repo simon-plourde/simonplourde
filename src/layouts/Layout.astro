@@ -66,6 +66,9 @@ const footer = {
   <link rel="alternate" hreflang="fr" href={lang === 'en' ? new URL(altHref, Astro.site) : canonicalURL} />
   <link rel="alternate" hreflang="x-default" href={new URL('/', Astro.site)} />
 
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="Simon Plourde" href={lang === 'fr' ? '/fr/rss.xml' : '/rss.xml'} />
+
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
