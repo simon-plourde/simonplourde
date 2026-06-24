@@ -7,7 +7,7 @@ export async function GET(context) {
 
   return rss({
     title: 'Simon Plourde',
-    description: 'Écrits sur la construction de projets avec l'IA — sans expérience en programmation.',
+    description: "Écrits sur la construction de projets avec l'IA — sans expérience en programmation.",
     site: context.site,
     items: posts.map(post => ({
       title: post.data.title,
